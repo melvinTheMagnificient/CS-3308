@@ -1,0 +1,179 @@
+> ./restaurant -i
+
+Main menu:
+------------------------
+p = print people
+a = add person
+r = pay
+s = speak
+q = quit
+Action: p
+
+People:
+------------------------
+0: Joe is a Manager
+1: Jane is a Cook
+2: Sally is a Server
+3: Frank is a Customer
+
+Main menu:
+------------------------
+p = print people
+a = add person
+r = pay
+s = speak
+q = quit
+Action: a
+
+Add person:
+------------------------
+name: Horace
+	m = manager
+	c = cook
+	f = server
+	u = customer
+role: c
+
+Main menu:
+------------------------
+p = print people
+a = add person
+r = pay
+s = speak
+q = quit
+Action: p
+
+People:
+------------------------
+0: Joe is a Manager
+1: Jane is a Cook
+2: Sally is a Server
+3: Frank is a Customer
+4: Horace is a Cook
+
+Main menu:
+------------------------
+p = print people
+a = add person
+r = pay
+s = speak
+q = quit
+Action: a
+
+Add person:
+------------------------
+name: Vanessa
+	m = manager
+	c = cook
+	f = server
+	u = customer
+role: m
+
+Main menu:
+------------------------
+p = print people
+a = add person
+r = pay
+s = speak
+q = quit
+Action: p
+
+People:
+------------------------
+0: Joe is a Manager
+1: Jane is a Cook
+2: Sally is a Server
+3: Frank is a Customer
+4: Horace is a Cook
+5: Vanessa is a Manager
+
+Main menu:
+------------------------
+p = print people
+a = add person
+r = pay
+s = speak
+q = quit
+Action: r
+
+People:
+------------------------
+0: Joe is a Manager
+1: Jane is a Cook
+2: Sally is a Server
+3: Frank is a Customer
+4: Horace is a Cook
+5: Vanessa is a Manager
+Pay which person? (0-5) 3
+How much? 500
+The restaurant now has 500 cash on hand
+
+Main menu:
+------------------------
+p = print people
+a = add person
+r = pay
+s = speak
+q = quit
+Action: r
+
+People:
+------------------------
+0: Joe is a Manager
+1: Jane is a Cook
+2: Sally is a Server
+3: Frank is a Customer
+4: Horace is a Cook
+5: Vanessa is a Manager
+Pay which person? (0-5) 4
+How much? 35
+The restaurant now has 465 cash on hand
+
+Main menu:
+------------------------
+p = print people
+a = add person
+r = pay
+s = speak
+q = quit
+Action: s
+
+People:
+------------------------
+0: Joe is a Manager
+1: Jane is a Cook
+2: Sally is a Server
+3: Frank is a Customer
+4: Horace is a Cook
+5: Vanessa is a Manager
+Which person should speak? (0-5) 5
+Vanessa says: I run the restaurant!
+
+Main menu:
+------------------------
+p = print people
+a = add person
+r = pay
+s = speak
+q = quit
+Action: s
+
+People:
+------------------------
+0: Joe is a Manager
+1: Jane is a Cook
+2: Sally is a Server
+3: Frank is a Customer
+4: Horace is a Cook
+5: Vanessa is a Manager
+Which person should speak? (0-5) 1
+Jane says: I cook burgers!
+
+Main menu:
+------------------------
+p = print people
+a = add person
+r = pay
+s = speak
+q = quit
+Action: q
