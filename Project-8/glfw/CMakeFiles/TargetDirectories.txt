@@ -1,0 +1,8 @@
+/home/coblmeli/3308/projects/project8/p8-dist/glfw/CMakeFiles/rebuild_cache.dir
+/home/coblmeli/3308/projects/project8/p8-dist/glfw/CMakeFiles/edit_cache.dir
+/home/coblmeli/3308/projects/project8/p8-dist/glfw/CMakeFiles/asteroids.dir
+/home/coblmeli/3308/projects/project8/p8-dist/glfw/glfw/CMakeFiles/edit_cache.dir
+/home/coblmeli/3308/projects/project8/p8-dist/glfw/glfw/CMakeFiles/rebuild_cache.dir
+/home/coblmeli/3308/projects/project8/p8-dist/glfw/glfw/src/CMakeFiles/rebuild_cache.dir
+/home/coblmeli/3308/projects/project8/p8-dist/glfw/glfw/src/CMakeFiles/edit_cache.dir
+/home/coblmeli/3308/projects/project8/p8-dist/glfw/glfw/src/CMakeFiles/glfw.dir
