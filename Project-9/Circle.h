@@ -1,3 +1,4 @@
+//Melissa Coblentz
 #pragma once
 
 #include "./util.h"
@@ -67,13 +68,10 @@ class Circle {
       glDrawArrays(GL_LINE_STRIP, 1, NUM_VERTICES-1);
     }
     check_gl_error();
-  }
-
-  
+  }  
 
  private:
   static const int NUM_VERTICES = 38;
-
   static Circle* _instance;
   float2 vertices[NUM_VERTICES];
   GLuint vertex_buffer;

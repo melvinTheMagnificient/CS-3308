@@ -1,9 +1,9 @@
+//Melissa Coblentz
 #pragma once
 
 #include <stdexcept>
 #include <cmath>
 #include <iostream>
-
 
 union float2 {
   struct { float s[2]; };
@@ -11,7 +11,6 @@ union float2 {
   float2(float x_, float y_) : x(x_), y(y_) {}
   float2() : x(0), y(0) {}
 };
-
 
 //------------------------------------------------------------
 // output operators
@@ -21,20 +20,6 @@ inline std::ostream& operator<<(std::ostream& out, const float2& v) {
     if (i < 1) out << " ";
   }
   return out;
-}
-
-// //------------------------------------------------------------
-// inline float dist(const float2& p, const float2& q) { 
-//   float2 dot = float2(p.x-q.x, p.y-q.y);
-//   float length2 = dot.x * dot.x + dot.y * dot.y;
-//   float length = sqrt(length2);
-//   return length;
-
-//   // return length(p-q);
-// }
-
-inline bool operator==(const float2 v, const float2 u){
-  
 }
 
 //------------------------------------------------------------
@@ -92,5 +77,10 @@ inline float2 normalize(const float2 v) {
 }
 inline float2 unit(const float2 v) {
   return v / length(v);
+}
+//------------------------------------------------------------
+// distance
+inline float dist(const float2& p, const float2& q) {
+  return length(p-q);
 }
 

@@ -1,3 +1,4 @@
+//Melissa Coblentz
 #pragma once
 
 #include <random>
@@ -9,10 +10,10 @@ struct Color {
   float r, g, b;
 
   static Color random() {
+    srand(clock());
     return Color(rand()/(float)RAND_MAX, rand()/(float)RAND_MAX,
                  rand()/(float)RAND_MAX);
   }
-
   static Color WHITE;
   static Color BLACK;
   static Color GRAY;
@@ -20,4 +21,3 @@ struct Color {
   static Color GREEN;
   static Color BLUE;
 };
-

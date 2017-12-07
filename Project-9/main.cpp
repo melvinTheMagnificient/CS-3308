@@ -1,3 +1,4 @@
+//Melissa Coblentz
 //------------------------------------------------------------
 //
 // CS 3308
@@ -140,7 +141,7 @@ void render(FlatProgram& program) {
 }
 
 int main(void) {
-  using namespace std;
+  using namespace std;  
 
   glfwSetErrorCallback(error_callback);
 

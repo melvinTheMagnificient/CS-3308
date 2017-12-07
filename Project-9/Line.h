@@ -64,9 +64,7 @@ class Line {
     // Color c = Color::BLACK;
     glUniform3fv(program.color_location, 1, (const GLfloat*)&c);
     glDrawArrays(GL_LINES, 0, 2);
-  }
-
-  
+  }  
 
  private:
   static Line* _instance;

@@ -1,3 +1,4 @@
+//Melissa Coblentz
 #pragma once
 
 #include "./util.h"
@@ -62,11 +63,16 @@ class Triangle {
     check_gl_error();
   }
 
-  
+  float2* getVertices(){
+    float2* f = new float2[3];
+    for(int i = 0; i <= 3; i++){
+      f[i]=vertices[i];
+    }
+    return f;
+  }
 
  private:
   static const int NUM_VERTICES = 3;
-
   static Triangle* _instance;
   float2 vertices[NUM_VERTICES];
   GLuint vertex_buffer;
