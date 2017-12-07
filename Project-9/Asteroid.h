@@ -1,3 +1,4 @@
+//Melissa Coblentz
 #pragma once
 
 #include "./float2.h"
@@ -5,30 +6,32 @@
 
 class Asteroid {
  public:
-  Asteroid(const float2& p, const float2& v, const float size,
-           const Color& color) {
-    _p = p;
-    _v = v;
+  Asteroid(const float2& position, const float2& velocity, 
+    const float size, const Color& color) {
+    _position = position;
+    _velocity = velocity;
     _size = size;
     _color = color;
   }
 
+  //modifies position based on velocity (called every frame)
   void move() {
-    _p = _p + _v;
+    _position = _position + _velocity;
   }
 
-  float2 getPos() const { return _p; }
-  void setPos(const float2& p) { _p = p; }
-  float2 getVel() const { return _v; }
-  void setVel(const float2& v) { _v = v; }
+  float2 getPos() const { return _position; }
+  void setPos(const float2& position) { _position = position; }
+  float2 getVel() const { return _velocity; }
+  void setVel(const float2& velocity) { _velocity = velocity; }
   float getSize() const { return _size; }
   void setSize(const float& size) { _size = size; }
   Color getColor() const { return _color; }
   void setColor(const Color& color) { _color = color; }
 
  private:
-  float2 _p;
-  float2 _v;
+  //data members based on circle data members
+  float2 _position;
+  float2 _velocity;
   float _size;
   Color _color;
 };
