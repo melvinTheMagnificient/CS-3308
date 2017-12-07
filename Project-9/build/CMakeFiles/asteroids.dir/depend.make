@@ -12,8 +12,10 @@ CMakeFiles/asteroids.dir/Game.cpp.o: ../glfw/deps/vulkan/vk_platform.h
 CMakeFiles/asteroids.dir/Game.cpp.o: ../glfw/deps/vulkan/vulkan.h
 CMakeFiles/asteroids.dir/Game.cpp.o: ../glfw/include/GLFW/glfw3.h
 CMakeFiles/asteroids.dir/Game.cpp.o: ../././Asteroid.h
+CMakeFiles/asteroids.dir/Game.cpp.o: ../././Bullet.h
 CMakeFiles/asteroids.dir/Game.cpp.o: ../././Color.h
 CMakeFiles/asteroids.dir/Game.cpp.o: ../././RenderContext.h
+CMakeFiles/asteroids.dir/Game.cpp.o: ../././Rocket.h
 CMakeFiles/asteroids.dir/Game.cpp.o: ../././float2.h
 CMakeFiles/asteroids.dir/Game.cpp.o: ../././programs.h
 CMakeFiles/asteroids.dir/Game.cpp.o: ../././util.h
@@ -29,8 +31,10 @@ CMakeFiles/asteroids.dir/main.cpp.o: ../glfw/deps/vulkan/vk_platform.h
 CMakeFiles/asteroids.dir/main.cpp.o: ../glfw/deps/vulkan/vulkan.h
 CMakeFiles/asteroids.dir/main.cpp.o: ../glfw/include/GLFW/glfw3.h
 CMakeFiles/asteroids.dir/main.cpp.o: ../././Asteroid.h
+CMakeFiles/asteroids.dir/main.cpp.o: ../././Bullet.h
 CMakeFiles/asteroids.dir/main.cpp.o: ../././Color.h
 CMakeFiles/asteroids.dir/main.cpp.o: ../././RenderContext.h
+CMakeFiles/asteroids.dir/main.cpp.o: ../././Rocket.h
 CMakeFiles/asteroids.dir/main.cpp.o: .././Circle.h
 CMakeFiles/asteroids.dir/main.cpp.o: .././Game.h
 CMakeFiles/asteroids.dir/main.cpp.o: .././Line.h
